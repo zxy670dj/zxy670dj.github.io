@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text To TextBlocks</title>
+    <link rel="stylesheet" href="../static/ttb/style.css">
+</head>
+<body>
+    <button id="backBtn">Back</button>
+    <h1 id="title">Text To TextBlocks</h1>
+    <p id="desc">Convert your text into Circuit Maker 2 TextBlocks format!</p>
+    <div class="container">
+        <textarea id="inputText" placeholder="Enter your text here..."></textarea>
+        <p id="spacing">Spacing:</p><input type="number" id="spacingInput" value="0.5" min="0" max="10" step="0.1">
+    </div>
+    <br>
+    <button id="convertBtn">Convert to TextBlocks</button>
+    <h2>Output:</h2>
+    <textarea id="outputText" readonly placeholder="13,,,,,65;13,,,,,66???"></textarea>
+    <br>
+    <button id="copy">Copy Text</button>
+    <script src="../static/ttb/script.js"></script>
+</body>
+</html>

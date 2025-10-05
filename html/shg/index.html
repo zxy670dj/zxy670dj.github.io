@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/shg/style.css">
+    <title>Shape Generator</title>
+</head>
+<body>
+    <button id="backBtn">Back</button>
+    <h1 id="title">Shape Generator</h1>
+    <p id="desc">Generate shapes for Circuit Maker 2!</p>
+    <div class="container">
+        <label for="shapelbl">Select Shape:</label>
+        <select id="shapeSelect">
+            <option value="circle">Circle</option>
+            <option value="square">Square</option>
+            <option value="cube">Cube</option>
+        </select>
+    </div>
+    <br>
+    <button id="generateBtn">Generate Shape</button>
+    <h2>Output:</h2>
+    <textarea id="outputText" readonly placeholder="Generated shape data..."></textarea>
+    <br>
+    <button id="copy">Copy Text</button>
+    <script src="../static/shg/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,139 @@
+/* Reset defaults */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Body */
+body {
+    font-family: 'Rubik', Arial, sans-serif;
+    background: linear-gradient(135deg, #4a90e2, #50e3c2);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    color: #fff;
+}
+
+/* Headings */
+h1#title {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.3);
+}
+
+h2 {
+    margin-top: 30px;
+    font-size: 1.8rem;
+}
+
+/* Paragraphs */
+p#desc, p#spacing {
+    font-size: 1.1rem;
+    margin: 10px 0;
+    text-align: center;
+}
+
+/* Container for inputs */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    max-width: 700px;
+}
+
+/* Select dropdown */
+select {
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    margin-top: 5px;
+    font-size: 1rem;
+}
+
+/* Textareas */
+textarea {
+    width: 100%;
+    min-height: 120px;
+    padding: 15px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    resize: vertical;
+    outline: none;
+}
+
+/* Number input */
+input[type="number"] {
+    padding: 10px;
+    width: 100px;
+    border-radius: 6px;
+    border: none;
+    margin-top: 5px;
+    font-size: 1rem;
+}
+
+/* Buttons */
+button {
+    padding: 12px 30px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    background: #f5a623;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #e94e77;
+    transform: translateY(-2px);
+}
+
+/* Output textarea special style */
+#outputText {
+    background: rgba(255,255,255,0.9);
+    color: #333;
+    font-family: monospace;
+}
+
+/* Back button styling */
+#backBtn {
+    position: fixed;   /* Stay fixed on the screen */
+    top: 20px;         /* Distance from top */
+    left: 20px;        /* Distance from left */
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #3498db; /* blue button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1000;      /* Always on top */
+    transition: background-color 0.2s;
+}
+
+#backBtn:hover {
+    background-color: #2980b9; /* darker on hover */
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    body {
+        padding: 20px 10px;
+    }
+
+    h1#title {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+}
