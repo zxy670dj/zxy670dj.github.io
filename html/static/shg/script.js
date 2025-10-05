@@ -2,7 +2,10 @@
 const backBtn = document.getElementById('backBtn');
 
 const shapeSelect = document.getElementById('shapeSelect');
+const generateBtn = document.getElementById('generateBtn');
 const container = document.querySelector('.container');
+
+const out = document.getElementById('outputText')
 
 let isFlat = true; // Default value
 
@@ -131,3 +134,15 @@ function cube(blockId=2, size=5) {
     }
     return savestring.slice(0, -1) + "???";
 }
+
+generateBtn.addEventListener('click', () => {
+    const shape = shapeSelect.value;
+    const size = parseInt(sizeInput.value);
+    let result = "";
+
+    if (shape === "circle") result = midpointCircle(2, size);
+    else if (shape === "square") result = square(2, size, isFlat);
+    else if (shape === "cube") result = cube(2, size);
+
+    output.value = result;
+});
