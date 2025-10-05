@@ -5,7 +5,7 @@ const shapeSelect = document.getElementById('shapeSelect');
 const generateBtn = document.getElementById('generateBtn');
 const container = document.querySelector('.container');
 
-const out = document.getElementById('outputText')
+const output = document.getElementById('outputText')
 
 let isFlat = true; // Default value
 
