@@ -7,7 +7,7 @@ This repository is dedicated to **CM2 (Circuit Maker 2)** tools.
 ---
 
 ### 🧠 About CM2
-**Circuit Maker 2 (CM2)** is a Roblox sandbox 3D game that lets you create computers, calculators, and much more.
+**Circuit Maker 2 (CM2)** is a Roblox logic-based sandbox 3D game that lets you create computers, calculators, and much more.
 
 For more information, please visit the official wiki:  
 🔗 [Circuit Maker 2 Wiki](https://cm2.fandom.com/wiki/Circuit_Maker_2_Wiki)
