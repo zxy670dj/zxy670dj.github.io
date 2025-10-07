@@ -16,7 +16,7 @@
 
 **A**: Yes. I recommend using it on a PC to switch between Roblox and this website.
 
-**Q**: Is this copied from [traube.dev](https://traube.dev)?
+**Q**: Is this copied from [traube.dev/cm2](https://traube.dev/cm2)?
 
 **A**: No, but the parts I copied (Double Dabble) just told Traube to copy his/her code.
 
