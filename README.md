@@ -35,6 +35,13 @@ For more details, visit the official wiki:
 
 ---
 
+## ❓Q&A/FAQ
+
+All of them (not really) in the [QA](qa.md) file.
+> Got a question? [Submit it here!](../../issues)
+
+---
+
 ## ⚖️ License
 This project is licensed under the [MIT License](LICENSE).  
 *(Click to view full terms.)*
