@@ -11,3 +11,15 @@
 **Q**: Can I use them in my CM2 Repository?
 
 **A**: Yes. The tools are free and open-source under the [MIT License](LICENSE).
+
+**Q**: Does this work on mobile devices?
+
+**A**: Yes. I recommend using it on a PC to switch between Roblox and this website.
+
+**Q**: Is this copied from [traube.dev](https://traube.dev)?
+
+**A**: No, but the parts I copied (Double Dabble) just told Traube to copy his/her code.
+
+**Q**: What is a CM2 Savestring?
+
+**A**: CM2 Savestring is a piece of text data that stores a full CM2 build — including blocks, connections, properties, and positions — in a single, compact string.
