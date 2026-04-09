@@ -104,7 +104,7 @@ def update_pre(event):
     if event.key == "Enter":
         inp = inp_tag.value
         inp = inp.upper()
-        inp = inp[::-1]
+        inp = "".join(reversed(inp))
         inp = "{:^17}".format(inp[:17])
         template = base_template
 
