@@ -110,7 +110,7 @@ def update_pre(event):
 
         for char in inp:
             if char in keys:
-                nl = "!$\n" if char in no9del else "!9o!$\n"
+                nl = "!!$\n" if char in no9del else "!9o!$\n"
                 template += keys[char] + nl
 
         template += "o\nRRRRRRR!!12345678901234567$$2[r=)\n\n\nCre: @iilikecasio on yt"
