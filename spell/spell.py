@@ -104,12 +104,13 @@ def update_pre(event):
     if event.key == "Enter":
         inp = inp_tag.value
         inp = inp.upper()
+        inp = inp[::-1]
         inp = "{:^17}".format(inp[:17])
         template = base_template
 
         for char in inp:
             if char in keys:
-                nl = "\n" if char in no9del else "!9o!$\n"
+                nl = "!$\n" if char in no9del else "!9o!$\n"
                 template += keys[char] + nl
 
         template += "\nRRRRRRR!!12345678901234567$$2[r=)\n\n\nCre: @iilikecasio on yt"
