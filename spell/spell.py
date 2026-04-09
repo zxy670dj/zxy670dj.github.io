@@ -113,7 +113,7 @@ def update_pre(event):
                 nl = "!$\n" if char in no9del else "!9o!$\n"
                 template += keys[char] + nl
 
-        template += "\nRRRRRRR!!12345678901234567$$2[r=)\n\n\nCre: @iilikecasio on yt"
+        template += "o\nRRRRRRR!!12345678901234567$$2[r=)\n\n\nCre: @iilikecasio on yt"
 
         pre_tag.innerHTML = style_paren(template)
 
